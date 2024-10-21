@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno --unstable-kv --unstable-cron --allow-read --allow-write ./main.ts",
+    "repl": "deno repl --unstable-kv --unstable-cron --allow-read --allow-write --eval-file=./eval.ts"
+  },
+  "imports": {
+    "@std/datetime": "jsr:@std/datetime@^0.225.2"
+  }
+}
